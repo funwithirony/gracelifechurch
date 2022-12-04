@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="favicon.ico">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/75eab5b655.js" crossorigin="anonymous"></script>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Noto+Sans+JP:wght@300;400;500;700;900&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <title>Grace Life Church</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">
+      <a href="index.html"><img class="grace-icon" src="images/icon.png" alt="glclogo"></a>
+      <!-- <h4>Grace Life Church</h4> -->
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="index.html">ホーム</a>
+      </li>
+      <li>
+        <a href="hajimete.html">教会紹介</a>
+      </li>
+      <li>
+        <a href="hataraki.html">教会の働き</a>
+      </li>
+      <li>
+        <a href="access.html">アクセス</a>
+      </li>
+    </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+
+  <!-- Hero Image -->
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1 class="welcome">ようこそ、Grace Life Churchへ</h1><br>
+      <a href="hajimete.html" class="hero-btn">初めての方へ</a>
+    </div>
+  </div>
+
+  <!-- Service -->
+  <div class="service-part">
+    <h1 class="service-text" style="font-weight:bold">礼拝</h1>
+    <p class="service-text">毎週日曜日 10:30AM</p>
+    <a href="https://www.youtube.com/channel/UCbnsR-SC77rRTdlJlIFatog" class="service-btn"><i class="fa-solid fa-circle-play"></i> ライブ配信</a>
+  </div>
+
+  <!-- Carousel -->
+  <section class="carousel-part">
+
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="background-image:url('images/event.jpg')">
+          <div class="container">
+            <!-- <h2>アルバム</h2>
+            <a href="#" class="hero-btn">詳しく見る</a> -->
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image:url('images/youth.jpg')">
+          <div class="container">
+            <!-- <h2>ユース</h2>
+            <a href="#" class="hero-btn">詳しく見る</a> -->
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image:url('images/chappel.jpg')">
+          <div class="container">
+            <!-- <h2>大瀬チャペル</h2>
+            <a href="#" class="hero-btn">詳しく見る</a> -->
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+<div class="service-part" style="background-color:white">
+  <h1 class="service-text">お問い合わせ</h1>
+  <form action="https://formsubmit.co/hmechurch@yahoo.co.jp" method="POST">
+    <input name="name" type="text" class="feedback-input" placeholder="お名前" />
+    <input name="email" type="text" class="feedback-input" placeholder="メールアドレス" />
+    <textarea name="text" class="feedback-input" placeholder="メッセージ内容"></textarea>
+    <input type="submit" value="送信"/>
+  </form>
+</div>
+
+
+  <!-- Footer -->
+
+  <section class="footer">
+    <div class="social">
+      <a href="https://www.facebook.com/Grace-Life-Church-190731991080937"><i class="s-icon fa-brands fa-facebook fa-2x" style="color: #213159"></i></a>
+      <a href="https://www.youtube.com/channel/UCbnsR-SC77rRTdlJlIFatog"><i class="s-icon fa-brands fa-youtube fa-2x" style="color: #213159"></i></a>
+      <a href="https://goo.gl/maps/iEn8b1jq5mpztHjs5"><i class="s-icon fa-solid fa-map-location fa-2x" style="color: #213159"></i></a>
+      <a href="mailto:hmechurch@yahoo.co.jp?subject=Mail from Our Site"><i class="s-icon fa-solid fa-envelope fa-2x" style="color: #213159"></i></a>
+    </div>
+
+    <div class="footer-contact">
+      <p>
+        © 2022 Grace Life Church <br>
+        静岡県浜松市中区上島3-27-13　アリアンサ・クリスタン <br>
+        090-7863-1173
+      </p>
+    </div>
+  </section>
+
+  <script src="javascript/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
